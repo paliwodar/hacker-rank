@@ -1,14 +1,14 @@
-package strings.sherlock_and_valid_string
+package strings
 
 import spock.lang.Specification
 import spock.lang.Unroll
 
-class SolutionTest extends Specification {
+class SherlockAndValidStringTest extends Specification {
 
     @Unroll
     def "example tests"() {
         expect:
-        Solution.isValid(input) == expectedOutput
+        SherlockAndValidString.isValid(input) == expectedOutput
 
         where:
         input    | expectedOutput
@@ -21,7 +21,7 @@ class SolutionTest extends Specification {
     @Unroll
     def "more tests"() {
         expect:
-        Solution.isValid(input) == expectedOutput
+        SherlockAndValidString.isValid(input) == expectedOutput
 
         where:
         input      | expectedOutput

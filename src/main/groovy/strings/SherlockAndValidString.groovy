@@ -1,9 +1,9 @@
-package strings.sherlock_and_valid_string
+package strings
 
 /**
  * https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem
  */
-class Solution {
+class SherlockAndValidString {
 
     static def isValid(String input) {
 
